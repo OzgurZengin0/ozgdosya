@@ -1,3 +1,8 @@
+const path = require('path');
+
+// Public klasörünü statik dosyalar için kullan
+app.use(express.static(path.join(__dirname, 'public')));
+
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
