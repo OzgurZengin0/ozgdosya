@@ -1,0 +1,14 @@
+/user-file-storage
+  /backend
+    - server.js
+    - models
+      - user.js
+  /frontend
+    - index.html
+    - login.html
+    - register.html
+    - dashboard.html
+    - style.css
+    - script.js
+  /uploads
+  package.json
